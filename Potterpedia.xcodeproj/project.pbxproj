@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		48F145F02AF741700089B961 /* PotterpediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F145EF2AF741700089B961 /* PotterpediaApp.swift */; };
-		48F145F22AF741700089B961 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F145F12AF741700089B961 /* ContentView.swift */; };
+		48F145F22AF741700089B961 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F145F12AF741700089B961 /* CharacterView.swift */; };
 		48F145F42AF741710089B961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F145F32AF741710089B961 /* Assets.xcassets */; };
 		48F145F72AF741710089B961 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F145F62AF741710089B961 /* Preview Assets.xcassets */; };
 		48F146012AF741710089B961 /* PotterpediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F146002AF741710089B961 /* PotterpediaTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		48F145EC2AF741700089B961 /* Potterpedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Potterpedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F145EF2AF741700089B961 /* PotterpediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotterpediaApp.swift; sourceTree = "<group>"; };
-		48F145F12AF741700089B961 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48F145F12AF741700089B961 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		48F145F32AF741710089B961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48F145F62AF741710089B961 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48F145FC2AF741710089B961 /* PotterpediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotterpediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				48F145EF2AF741700089B961 /* PotterpediaApp.swift */,
-				48F145F12AF741700089B961 /* ContentView.swift */,
+				48F145F12AF741700089B961 /* CharacterView.swift */,
 				48F145F32AF741710089B961 /* Assets.xcassets */,
 				48F145F52AF741710089B961 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F145F22AF741700089B961 /* ContentView.swift in Sources */,
+				48F145F22AF741700089B961 /* CharacterView.swift in Sources */,
 				48F145F02AF741700089B961 /* PotterpediaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
