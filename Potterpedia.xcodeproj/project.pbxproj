@@ -14,6 +14,8 @@
 		48F146012AF741710089B961 /* PotterpediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F146002AF741710089B961 /* PotterpediaTests.swift */; };
 		48F1460B2AF741710089B961 /* PotterpediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F1460A2AF741710089B961 /* PotterpediaUITests.swift */; };
 		48F1460D2AF741710089B961 /* PotterpediaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F1460C2AF741710089B961 /* PotterpediaUITestsLaunchTests.swift */; };
+		48F1461C2AF7477A0089B961 /* HarryPotterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F1461B2AF7477A0089B961 /* HarryPotterAPI.swift */; };
+		48F1461E2AF747FE0089B961 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F1461D2AF747FE0089B961 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		48F146062AF741710089B961 /* PotterpediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotterpediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F1460A2AF741710089B961 /* PotterpediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotterpediaUITests.swift; sourceTree = "<group>"; };
 		48F1460C2AF741710089B961 /* PotterpediaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotterpediaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48F1461B2AF7477A0089B961 /* HarryPotterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterAPI.swift; sourceTree = "<group>"; };
+		48F1461D2AF747FE0089B961 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				48F145F12AF741700089B961 /* CharacterView.swift */,
 				48F145F32AF741710089B961 /* Assets.xcassets */,
 				48F145F52AF741710089B961 /* Preview Content */,
+				48F1461B2AF7477A0089B961 /* HarryPotterAPI.swift */,
+				48F1461D2AF747FE0089B961 /* Character.swift */,
 			);
 			path = Potterpedia;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				48F145F22AF741700089B961 /* CharacterView.swift in Sources */,
+				48F1461C2AF7477A0089B961 /* HarryPotterAPI.swift in Sources */,
 				48F145F02AF741700089B961 /* PotterpediaApp.swift in Sources */,
+				48F1461E2AF747FE0089B961 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
