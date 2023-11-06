@@ -77,6 +77,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48EE9F542AF8C94A00FFF688 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				48F1461B2AF7477A0089B961 /* HarryPotterAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		48EE9F552AF8C95500FFF688 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48F145F12AF741700089B961 /* CharacterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48EE9F562AF8C96500FFF688 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48F1461D2AF747FE0089B961 /* Character.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48EE9F572AF8C97200FFF688 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				48F1461F2AF8A18F0089B961 /* CharacterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		48F145E32AF741700089B961 = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +133,12 @@
 			isa = PBXGroup;
 			children = (
 				48F145EF2AF741700089B961 /* PotterpediaApp.swift */,
-				48F145F12AF741700089B961 /* CharacterView.swift */,
+				48EE9F542AF8C94A00FFF688 /* Network */,
+				48EE9F562AF8C96500FFF688 /* Models */,
+				48EE9F552AF8C95500FFF688 /* Views */,
+				48EE9F572AF8C97200FFF688 /* ViewModels */,
 				48F145F32AF741710089B961 /* Assets.xcassets */,
 				48F145F52AF741710089B961 /* Preview Content */,
-				48F1461B2AF7477A0089B961 /* HarryPotterAPI.swift */,
-				48F1461D2AF747FE0089B961 /* Character.swift */,
-				48F1461F2AF8A18F0089B961 /* CharacterViewModel.swift */,
 			);
 			path = Potterpedia;
 			sourceTree = "<group>";
