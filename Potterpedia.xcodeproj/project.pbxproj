@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48EE9F592AF8C9C400FFF688 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EE9F582AF8C9C400FFF688 /* Launch Screen.storyboard */; };
 		48F145F02AF741700089B961 /* PotterpediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F145EF2AF741700089B961 /* PotterpediaApp.swift */; };
 		48F145F22AF741700089B961 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F145F12AF741700089B961 /* CharacterView.swift */; };
 		48F145F42AF741710089B961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F145F32AF741710089B961 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48EE9F582AF8C9C400FFF688 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		48F145EC2AF741700089B961 /* Potterpedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Potterpedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F145EF2AF741700089B961 /* PotterpediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotterpediaApp.swift; sourceTree = "<group>"; };
 		48F145F12AF741700089B961 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		48EE9F552AF8C95500FFF688 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				48EE9F582AF8C9C400FFF688 /* Launch Screen.storyboard */,
 				48F145F12AF741700089B961 /* CharacterView.swift */,
 			);
 			path = Views;
@@ -272,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48EE9F592AF8C9C400FFF688 /* Launch Screen.storyboard in Resources */,
 				48F145F72AF741710089B961 /* Preview Assets.xcassets in Resources */,
 				48F145F42AF741710089B961 /* Assets.xcassets in Resources */,
 			);
