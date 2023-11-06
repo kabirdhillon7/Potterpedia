@@ -8,17 +8,21 @@
 import SwiftUI
 
 struct CharacterView: View {
+    @StateObject var viewModel = CharacterViewModel()
+    
     var body: some View {
         NavigationStack {
-            VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-                Text("Hello, world!")
+            ScrollView {
+                let characters = $viewModel.characters
+                ForEach(characters) { character in
+                    Text(character.name.wrappedValue)
+                }
             }
-            .padding()
         }
         .navigationTitle("Character")
+        .onAppear(perform: {
+            viewModel.fetchCharacter()
+        })
     }
 }
 

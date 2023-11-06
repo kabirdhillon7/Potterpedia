@@ -26,6 +26,7 @@ class HarryPotterAPI {
             let characters = try decoder.decode([Character].self, from: data)
             return .success(characters)
         } catch {
+            print(error)
             if let error = error as? URLError {
                 switch error.code {
                 case .badURL:

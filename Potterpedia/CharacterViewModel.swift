@@ -6,27 +6,23 @@
 //
 
 import Foundation
-import SwiftUI
 
 final class CharacterViewModel: ObservableObject {
-    @Published var networkingResult: Result<[Character], HarryPotterAPIError>
-    var api: HarryPotterAPI
+    @Published var characters = [Character]()
+    @Published var error: HarryPotterAPIError!
     
-    init(neworkingResult: Result<[Character], HarryPotterAPIError>) {
-        self.networkingResult = neworkingResult
-        self.api = HarryPotterAPI()
-    }
+    var api: HarryPotterAPI = HarryPotterAPI()
     
-    func fetchCharacter() {
+    @MainActor func fetchCharacter() {
         Task {
             do {
-                networkingResult = try await api.getCharacters()
+                characters = try await api.getCharacters().get()
             } catch {
                 print(error)
                 if let hpError = error as? HarryPotterAPIError {
-                    networkingResult = .failure(hpError)
+                    self.error = hpError
                 } else {
-                    networkingResult = .failure(.unexpected)
+                    self.error = .unexpected
                 }
             }
         }
