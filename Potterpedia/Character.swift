@@ -28,7 +28,7 @@ struct Character: Decodable, Identifiable {
     let actor: String
     let alternateActors: [String]
     let alive: Bool
-    let image: String
+    var image: String
 }
 
 /// Wand model
