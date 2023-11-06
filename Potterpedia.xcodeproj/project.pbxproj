@@ -16,6 +16,7 @@
 		48F1460D2AF741710089B961 /* PotterpediaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F1460C2AF741710089B961 /* PotterpediaUITestsLaunchTests.swift */; };
 		48F1461C2AF7477A0089B961 /* HarryPotterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F1461B2AF7477A0089B961 /* HarryPotterAPI.swift */; };
 		48F1461E2AF747FE0089B961 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F1461D2AF747FE0089B961 /* Character.swift */; };
+		48F146202AF8A18F0089B961 /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F1461F2AF8A18F0089B961 /* CharacterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		48F1460C2AF741710089B961 /* PotterpediaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotterpediaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		48F1461B2AF7477A0089B961 /* HarryPotterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterAPI.swift; sourceTree = "<group>"; };
 		48F1461D2AF747FE0089B961 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		48F1461F2AF8A18F0089B961 /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				48F145F52AF741710089B961 /* Preview Content */,
 				48F1461B2AF7477A0089B961 /* HarryPotterAPI.swift */,
 				48F1461D2AF747FE0089B961 /* Character.swift */,
+				48F1461F2AF8A18F0089B961 /* CharacterViewModel.swift */,
 			);
 			path = Potterpedia;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48F145F22AF741700089B961 /* CharacterView.swift in Sources */,
+				48F146202AF8A18F0089B961 /* CharacterViewModel.swift in Sources */,
 				48F1461C2AF7477A0089B961 /* HarryPotterAPI.swift in Sources */,
 				48F145F02AF741700089B961 /* PotterpediaApp.swift in Sources */,
 				48F1461E2AF747FE0089B961 /* Character.swift in Sources */,
