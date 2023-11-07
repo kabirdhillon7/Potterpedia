@@ -7,12 +7,16 @@
 
 import Foundation
 
+/// Enum containing Harry Potter API endpoints
 enum HarryPotterAPIEndpoints: String {
     case charaterUrl = "https://hp-api.onrender.com/api/characters"
 }
 
+/// Class responsible for making API calls to the Harry Potter API
 class HarryPotterAPI {
     
+    /// Fetches characters from the Harry Potter API
+    /// - Returns: A Result type containing an array of `Character` objects or an error
     func getCharacters() async throws -> Result<[Character], HarryPotterAPIError> {
         guard let url = URL(string: HarryPotterAPIEndpoints.charaterUrl.rawValue) else {
             return .failure(.invalidUrl)
@@ -41,6 +45,7 @@ class HarryPotterAPI {
     }
 }
 
+/// Enum representing Harry Potter API errors
 enum HarryPotterAPIError: Error {
     case invalidUrl
     case networkingError
