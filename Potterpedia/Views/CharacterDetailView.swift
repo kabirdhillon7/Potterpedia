@@ -89,6 +89,14 @@ struct CharacterDetailView: View {
                 }
                 
                 HStack {
+                    Text("Patronus")
+                        .fontWeight(.medium)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                    Text(character.patronus.capitalized)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                }
+                
+                HStack {
                     Text("Actor")
                         .fontWeight(.medium)
                         .frame(maxWidth: .infinity, alignment: .center)
